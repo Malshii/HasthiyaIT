@@ -30,6 +30,7 @@ const Home = () => {
             {searchResults.map((user) =>
                 <UserTile user={user}/>
             )}
+            <div className="footer"/>
           </div>
       )
     }

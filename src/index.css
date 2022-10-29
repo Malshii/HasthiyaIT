@@ -3,6 +3,11 @@ body{
   margin: 0;
 }
 
+.footer{
+  width: 100vw;
+  height: 10vh;
+}
+
 .tile{
   height: 6rem;
   background-color: white;
