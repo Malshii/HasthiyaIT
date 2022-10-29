@@ -29,6 +29,8 @@ const UserProfile = () => {
                 <img className="userProfileImg" src={user.image} alt={user.name} />
                 <p className="userProfileHeading">{user.firstName} {user.lastName}</p>
                 <p className="userProfileSubHeading">{user.email}</p>
+                <hr className="hr"/>
+                <p className="userProfileSubHeading2">{user.age} years old</p>
                 <p className="userProfileTagLine">www.hasthiya.com</p>
             </div>
         );
